@@ -1,27 +1,39 @@
-<h1 align="center">Hi 👋, I'm Kaustubh Arora</h1>
-<h3 align="center">A passionate AI/ML Engineer from India</h3>
+# Kaustubh Arora
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kaustubh1235&label=Profile%20views&color=0e75b6&style=flat" alt="kaustubh1235" /> </p>
+Software engineer working on ML infrastructure and NLP tooling. Currently at ION Trading, previously at DRDO. I like bugs that sit between a model and the system it runs in.
 
-- 🔭 I’m currently working on **Agri AI**
-  
-- 🌱 I’m currently learning **FLASK,TRANFORMERS,LLM**
+## Merged upstream
 
-- 👯 I’m looking to collaborate on **AI application**
+Code of mine running in projects other people depend on.
 
-- 🤝 I’m looking for help with **ERA5 WINDSPEED**
+| Project | What I changed |
+|---|---|
+| [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza) · 7.9k★ | [#1693](https://github.com/stanfordnlp/stanza/pull/1693) Bounded the lemmatizer's results cache (LRU) and made it the default, so long-running pipelines stop growing without limit |
+| | [#1692](https://github.com/stanfordnlp/stanza/pull/1692) Kept the cache off words a contextual lemmatizer decides, so `her` → `she`/`her` is still resolved by context after it has been seen before |
+| [nextlevelbuilder/goclaw](https://github.com/nextlevelbuilder/goclaw) · 3.6k★ | [#1583](https://github.com/nextlevelbuilder/goclaw/pull/1583) Fixed agent deletion failing on an orphaned-vault path collision: a migration with a provenance column, a widened unique index, and an integration test that reproduces the collision |
+| [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) · 7.6k★ | [#553](https://github.com/Human-Agent-Society/reef/pull/553) Harness `requires` kinds, so a program can declare the binary a release names |
+| | [#714](https://github.com/Human-Agent-Society/reef/pull/714) Tell the model when a grounding document was cut short, instead of letting it end mid-sentence silently |
+| [mex-memory/mex](https://github.com/mex-memory/mex) · 1.8k★ | [#196](https://github.com/mex-memory/mex/pull/196) Stopped targeted graph reads from re-auditing the whole store |
 
-- 💬 Ask me about **react,ML,DL,NLP**
+**Open:** [apache/tvm #20617](https://github.com/apache/tvm/pull/20617) — `ConvertLayout` segfaulted on `add(x, float32(1))` because layout inference dereferenced a null cast on the `PrimValue` operand. Reproduced from a no-LLVM build, fixed, regression test, CI green. · [SWE-bench #670](https://github.com/SWE-bench/SWE-bench/pull/670)
 
-- 📫 How to reach me **kaustubharora082@gmail.com**
+## Things I've built
 
+- **[Auto-RCA](https://github.com/Kaustubh1235/Auto-RCA)** — alert fires → retrieve the matching historical RCA → extract a general SOP → run it with log-fetching tools → collect evidence. LLM-driven root-cause analysis for support teams.
+- **[Vocat](https://github.com/Kaustubh1235/vocat)** — real-time voice conversation at sub-second latency: WebRTC → VAD → Whisper → streaming GPT-4 → Redis cache → ElevenLabs → WebRTC.
+- **[AIEquity Traders](https://github.com/Kaustubh1235/MCP)** — a multi-agent trading-floor simulation where autonomous agents talk to local and remote MCP servers.
+- **[BioGPT cancer-hallmark classifier](https://github.com/Kaustubh1235/BIO-SMALL-LANGUAGE-MODEL)** — a small biomedical language model fine-tuned for hallmark-of-cancer classification.
+- **[ERA5 wind-speed LSTM](https://github.com/Kaustubh1235/era5_project)** — wind-speed prediction over time and altitude from ERA5 reanalysis data.
+- **[NETOPTAI](https://github.com/Kaustubh1235/netoptai)** — phishing-site detection with the MLOps around it: MongoDB ingestion, training pipeline, deployment.
+- **[Legally](https://github.com/Kaustubh1235/Legally-legal-advisor)** — an LLM legal assistant for Indian law, built for people who can't afford a lawyer for a first question.
 
+## Background
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+- B.Tech, VIT Vellore — 8.5 / 10
+- DRDO — research engineering
+- ION Trading — software engineer, 2025 → now
+- Co-founding something in developer tools. Quiet for now.
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kaustubh1235&show_icons=true&locale=en&layout=compact" alt="kaustubh1235" /></p>
+## Contact
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kaustubh1235&show_icons=true&locale=en" alt="kaustubh1235" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kaustubh1235&" alt="kaustubh1235" /></p>
+kaustubharora082@gmail.com
