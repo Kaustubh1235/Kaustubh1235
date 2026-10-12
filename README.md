@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kaustubh1235"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7AA2F7&center=true&vCenter=true&width=720&lines=Merged+in+Stanford+NLP%2C+reef%2C+goclaw+and+mex;Open+fix+in+Apache+TVM+%E2%80%94+CI+green;ION+Trading+%C2%B7+ex-DRDO+%C2%B7+VIT+Vellore;Co-founding+something+in+developer+tools" alt="typing" /></a>
+  <a href="https://github.com/Kaustubh1235"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7AA2F7&center=true&vCenter=true&width=720&lines=Merged+in+Stanford+NLP%2C+reef%2C+goclaw+and+mex;Open+fix+in+Apache+TVM+%E2%80%94+CI+green;ION+Trading+%C2%B7+ex-DRDO+%C2%B7+VIT+Vellore" alt="typing" /></a>
 </p>
 
 <p align="center">
