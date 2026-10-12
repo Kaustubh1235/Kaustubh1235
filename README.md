@@ -18,8 +18,16 @@
 <h2 align="center">🏆 Achievements unlocked</h2>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Kaustubh1235&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="trophies" />
+  <a href="https://github.com/stanfordnlp/stanza/pull/1693"><img height="110" src="https://github-readme-stats.vercel.app/api/pin/?username=stanfordnlp&repo=stanza&theme=tokyonight&hide_border=true" alt="stanza" /></a>
+  <a href="https://github.com/Human-Agent-Society/reef/pull/714"><img height="110" src="https://github-readme-stats.vercel.app/api/pin/?username=Human-Agent-Society&repo=reef&theme=tokyonight&hide_border=true" alt="reef" /></a>
+  <a href="https://github.com/apache/tvm/pull/20617"><img height="110" src="https://github-readme-stats.vercel.app/api/pin/?username=apache&repo=tvm&theme=tokyonight&hide_border=true" alt="tvm" /></a>
 </p>
+<p align="center">
+  <a href="https://github.com/nextlevelbuilder/goclaw/pull/1583"><img height="110" src="https://github-readme-stats.vercel.app/api/pin/?username=nextlevelbuilder&repo=goclaw&theme=tokyonight&hide_border=true" alt="goclaw" /></a>
+  <a href="https://github.com/mex-memory/mex/pull/196"><img height="110" src="https://github-readme-stats.vercel.app/api/pin/?username=mex-memory&repo=mex&theme=tokyonight&hide_border=true" alt="mex" /></a>
+  <a href="https://github.com/SWE-bench/SWE-bench/pull/670"><img height="110" src="https://github-readme-stats.vercel.app/api/pin/?username=SWE-bench&repo=SWE-bench&theme=tokyonight&hide_border=true" alt="SWE-bench" /></a>
+</p>
+<p align="center"><sub>Each card is a repo that took my code. Click one to open the PR.</sub></p>
 
 <table align="center">
   <tr>
@@ -63,7 +71,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kaustubh1235&theme=tokyo-night&hide_border=true&area=true" alt="activity" />
+  <img src="https://ghchart.rshah.org/7aa2f7/Kaustubh1235" alt="contribution chart" width="92%" />
 </p>
 
 <br/>
